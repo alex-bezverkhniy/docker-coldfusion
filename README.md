@@ -21,4 +21,5 @@ coldfusion:
 http://localhost:8500/CFIDE/administrator/index.cfm
 
 **User**: admin
+
 **Password**: admin
