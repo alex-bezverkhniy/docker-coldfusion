@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get install wget -y
 RUN apt-get install libstdc++5 -y
 
-RUN wget -O /opt/coldfusion-801-lin64.bin --no-check-certificate https://www.dropbox.com/s/4p8e6p1j25yrmu6/coldfusion-801-lin64.bin?dl=0
+RUN wget -O -q /opt/coldfusion-801-lin64.bin --no-check-certificate https://www.dropbox.com/s/4p8e6p1j25yrmu6/coldfusion-801-lin64.bin?dl=0
 
 ADD installer.properties /opt/installer.properties
 RUN chmod +x /opt/coldfusion-801-lin64.bin
