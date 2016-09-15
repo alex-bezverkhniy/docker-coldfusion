@@ -1,34 +1,3 @@
-# Docker ColdFusion
-
-## Build Docker Image
-```sh
-git clone git@github.com:gswteam/docker-colfusion.git
-docker build -t gswteam/coldfusion:tag .
-```
-
-## Portal ColdFusion
-http://localhost:8500/CFIDE/administrator/index.cfm
-
-
-## Annotations
-Dowload page:
-
-`https://www.dcepler.net/post.cfm/last-day-to-download-cf-8-and-9-from-adobe-with-verity`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # ColdFusion Developer Edition
 
 ## Tags
