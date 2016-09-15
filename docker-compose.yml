@@ -1,5 +1,5 @@
 coldfusion:
   container_name: coldfusion
-  image: gswteam/coldfusion
+  image: fabiohbarbosa/docker-coldfusion
   ports:
-  - "8500:8500"
+  - 8500:8500
