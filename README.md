@@ -5,14 +5,14 @@
 
 ## Run
 ```sh
-docker run -d -p 8500:8500 fabiohbarbosa/coldfusion
+docker run -d -p 8500:8500 fabiohbarbosa/coldfusion8
 ```
 
 ## Docker Compose
 ```yaml
 coldfusion:
-  container_name: coldfusion
-  image: fabiohbarbosa/coldfusion
+  container_name: coldfusion8
+  image: fabiohbarbosa/coldfusion8
   ports:
   - "8500:8500"
 ```
